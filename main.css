@@ -83,7 +83,21 @@ nav {
   display: flex;
   font-weight: bold;
   justify-content: space-between;
-  margin-bottom: 7rem;
+  margin-bottom: 2rem;
+}
+
+nav svg {
+  width: 55%;
+}
+
+@media (min-width: 380px) {
+  nav {
+    margin-bottom: 4rem;
+  }
+
+  nav svg {
+    width: 45%;
+  }
 }
 
 nav ul {
@@ -155,6 +169,14 @@ table {
   overflow-x: scroll;
   overflow-y: hidden;
   padding: 0;
+  table-layout: fixed;
+  width: 100%;
+}
+
+@media (min-width: 380px) {
+  table {
+    width: 80%;
+  }
 }
 
 table td,
