@@ -7,3 +7,8 @@ with the coronavirus going around a lot of shops, restaurants, companies are clo
 if there's a charity that's not on the list, edit `food-donation.csv` and raise a pull request. it shall be reviewed and merged within 24 hours. if you think there's a mistake/ we added a charity that's not really chariatable let us know by raising an issue.
 
 if there's a feature request, we are accepting pull requests as well.
+
+
+### website
+
+this website is accessible at https://foodfortheworld.love
