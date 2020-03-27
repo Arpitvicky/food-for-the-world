@@ -9,6 +9,7 @@ if there's a charity that's not on the list, edit `food-donation.csv` and raise 
 if there's a feature request, we are accepting pull requests as well.
 
 
-### website
+### hosted at
 
 this website is accessible at https://foodfortheworld.love
+
