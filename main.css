@@ -30,7 +30,7 @@ body {
   line-height: var(--line-height);
   margin: 0;
   overflow-x: hidden;
-  padding: 1rem 1.1rem;
+  padding: 1rem 0rem;
   font-size: 1.2rem;
 }
 
@@ -39,7 +39,13 @@ header,
 main {
   margin: 0 auto;
   max-width: var(--width-content);
-  padding: 2rem 1rem;
+  padding: 2rem 0.5rem;
+}
+
+@media (min-width: 380px) {
+  main {
+    padding: 2rem 1rem;
+  }
 }
 
 hr {
@@ -90,6 +96,12 @@ nav svg {
   width: 55%;
 }
 
+@media (max-width: 359px) {
+  body {
+    font-size: 1rem;
+  }
+}
+
 @media (min-width: 380px) {
   nav {
     margin-bottom: 4rem;
@@ -97,6 +109,10 @@ nav svg {
 
   nav svg {
     width: 45%;
+  }
+
+  body {
+    padding: 1rem;
   }
 }
 
