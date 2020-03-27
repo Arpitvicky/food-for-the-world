@@ -9,3 +9,4 @@ cp main.css dist/main.css
 cp main.js dist/main.js
 cp -r fonts dist/fonts
 cp -r icon dist/icon
+cp -r img dist/img
